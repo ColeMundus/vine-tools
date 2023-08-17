@@ -174,7 +174,8 @@ ul.a-pagination li.a-selected a {
 .a-button-dark,
 .a-button-search, 
 .a-button-dark:hover,
-.a-button-search:hover {
+.a-button-search:hover,
+.a-dropdown-link.a-active, .a-dropdown-link:hover {
     background: none;
 }
 
@@ -225,17 +226,30 @@ li, li a, #vvp-moving-to-gold-statement, ::placeholder, .larr, span, p {
   background-color: var(--on-secondary);
 }
 
-h5, strong {
+h4, h5, strong {
   color: white;
+}
+
+.a-tab-content:focus {
+  box-shadow: none;;
 }
 
 :focus {
   box-shadow: 0 0 0 3px var(--secondary);
 }
 
-div.a-popover-footer::before, div.a-popover-wrapper::after, .a-expander-content-fade {
-  display: none;
-}
 :focus-visible {
   outline: var(--secondary) auto 1px;
+}
+
+.a-popover-wrapper{
+  border: 0;
+}
+
+.a-popover-header {
+  border-bottom: 1px solid var(--secondary-container);
+}
+
+div.a-popover-footer::before, div.a-popover-wrapper::after, .a-expander-content-fade {
+  display: none;
 }
