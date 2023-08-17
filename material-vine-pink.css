@@ -233,6 +233,9 @@ h5, strong {
   box-shadow: 0 0 0 3px var(--secondary);
 }
 
+div.a-popover-footer::before, div.a-popover-wrapper::after, .a-expander-content-fade {
+  display: none;
+}
 :focus-visible {
   outline: var(--secondary) auto 1px;
 }
