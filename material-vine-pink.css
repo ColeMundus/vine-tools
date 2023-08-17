@@ -33,6 +33,9 @@
     --secondary-container: #5b3f45;
     --on-secondary-container: #ffd9e0; 
 
+    --tertiary: #edbe91;
+    --on-tertiary:;
+
     --background: #201a1b;
     --on-background: #ece0e1;
 
@@ -252,4 +255,20 @@ h4, h5, strong {
 
 div.a-popover-footer::before, div.a-popover-wrapper::after, .a-expander-content-fade {
   display: none;
+}
+
+.a-alert-container {
+  background-color: var(--tertiary);
+}
+
+.a-alert-success {
+  border-color: var(--tertiary);
+}
+
+.a-alert-content, .a-alert-heading {
+  color: var(--on-tertiary);
+}
+
+tr {
+  color: var(--secondary);
 }
