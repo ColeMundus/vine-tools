@@ -1,3 +1,17 @@
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/variable-defs.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/small-items.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-footer.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-header.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/remove-associate-header.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/more-description-text.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/etv-modal-on-top.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/categories-with-emojis.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/pagination-on-top.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/striped-categories.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/limited-quantity-icon.css);
+@import url(https://raw.githubusercontent.com/Thorvarium/vine-styling/main/desktop/rfy-afa-ai-tabs.css);
+@import url(https://raw.githubusercontent.com/ColeMundus/vine-tools/main/material-vine-pink.css);
+
 /* Font */
 @font-face {
   font-family: 'Product Sans';
