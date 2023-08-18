@@ -124,20 +124,22 @@ tr {
     color: var(--on-secondary-container);
 }
 
-.a-button-selected > .a-button-inner {
-    box-shadow: inset 0 0 0 3px var(--secondary-container);
+.a-button-toggle.a-button-selected .a-button-inner {
+    background-color: var(--secondary-container);
+    box-shadow: inset 0 0 0 3px var(--secondary);
 }
 
+#vvp-items-button-container a {
+  color: rgba(0,0,0,0);
+}
 .a-button-inner a::before {
   color: var(--secondary);
-}
-#vvp-items-button-container .a-button-inner .a-button-text {
-  color: var(--on-secondary);
 }
 
 ul.a-tabs .a-tab-heading.a-active a, 
 ul.a-tabs li.a-active a {
-    box-shadow: inset 0 0 0 3px var(--secondary-container);
+    box-shadow: inset 0 0 0 3px var(--secondary);
+    background-color: var(--secondary-container);
 }
 
 .vvp-details-btn > .a-button-inner span {
