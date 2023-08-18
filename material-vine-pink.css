@@ -115,7 +115,7 @@ tr {
     border: none;
     box-shadow: none;
     border-radius: 200px;
-    background: var(--secondary);
+    background: none;
 }
 
 .a-button-primary .a-button-inner, 
