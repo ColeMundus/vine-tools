@@ -34,7 +34,7 @@
     --on-secondary-container: #ffd9e0; 
 
     --tertiary: #edbe91;
-    --on-tertiary:;
+    --on-tertiary: #462a09;
 
     --background: #201a1b;
     --on-background: #ece0e1;
@@ -271,4 +271,13 @@ div.a-popover-footer::before, div.a-popover-wrapper::after, .a-expander-content-
 
 tr {
   color: var(--secondary);
+}
+
+#vvp-product-details-modal--request-btn-disabled-announce {
+  background-color: var(--tertiary);
+  color: var(--on-tertiary);
+}
+
+#vvp-product-details-info-container {
+  color: var(--on-background);
 }
